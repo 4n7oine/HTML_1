@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+<body>
+<header>
+    <h1>Website Feedback Form</h1>
+</header>
+<main>
+    <form action="main.html">
+        <p>
+            Is this the first time you have visited the website ?
+        </p>
+        <input type="radio" id="yes" name="visited" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="visited" value="yes">
+        <label for="no">No</label>
+        <p>
+            What is the PRIMARY reason you came to the website?
+        </p>
+        <textarea id="reason" name="reason" rows="5" cols="40"></textarea>
+        <p>
+            Did you find what you needed?
+        </p>
+        <input type="radio" id="yesalloftit" name="find_needed" value="yes">
+        <label for="yesalloftit">Yes, all of it</label>
+        <input type="radio" id="yessomeoftit" name="finded_needed_2" value="yes">
+        <label for="yessomeoftit">Yes, some of it</label>
+        <input type="radio" id="none" name="finded_needed_3" value="yes">
+        <label for="none">No, none of it</label>
+        <p>
+            If you did not find any or all of what you needed, please tell us what information you were looking for
+        </p>
+        <textarea id="ad_info" name="ad_info" rows="5" cols="40"></textarea>
+        <p>
+            Please tell us how easy it is to find information on the site
+        </p>
+        <input type="radio" id="veryeasy" name="find_infos_on_page" value="yes">
+        <label for="veryeasy">Very easy</label>
+        <input type="radio" id="easy" name="find_infos_on_page" value="yes">
+        <label for="easy">Easy</label>
+        <input type="radio" id="average" name="find_infos_on_page" value="yes">
+        <label for="average">Average</label>
+        <input type="radio" id="difficult" name="find_infos_on_page" value="yes">
+        <label for="difficult">Difficult</label>
+        <input type="radio" id="very_difficult" name="find_infos_on_page" value="yes">
+        <label for="very_difficult">Very difficult</label>
+        <p>
+            What is the overall impression on the site
+        </p>
+        <table>
+            <tr>
+                <th></th>
+                <th>Below Expectations</th>
+                <th>Meets Expectations</th>
+                <th>Exceeds Expectations</th>
+            </tr>
+            <tr>
+                <td>Professional</td>
+                <td>
+                    <input type="radio" id="below_ex_p" name="professional" value="below">
+                </td>
+                <td>
+                    <input type="radio" id="meets_ex_p" name="professional" value="meets">
+                </td>
+                <td>
+                    <input type="radio" id="exceeds_ex_p" name="professional" value="exceeds">
+                </td>
+            </tr>
+            <tr>
+                <td>Informative</td>
+                <td>
+                    <input type="radio" id="below_ex_i" name="informative" value="below">
+                </td>
+                <td>
+                    <input type="radio" id="meets_ex_i" name="informative" value="meets">
+                </td>
+                <td>
+                    <input type="radio" id="exceeds_ex_i" name="informative" value="exceeds">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Visually Pleasing</td>
+                <td>
+                    <input type="radio" id="below_ex_v" name="visually" value="below">
+                </td>
+                <td>
+                    <input type="radio" id="meets_ex_v" name="visually" value="meets">
+                </td>
+                <td>
+                    <input type="radio" id="exceeds_ex_v" name="visually" value="exceeds">
+                </td>
+            </tr>
+        </table>
+        <p>Please add any comments you have for improving the website. We welcome suggestions on specific areas fot
+            improvements, features you would like to see added to the site, and examples of what you consider goog
+            website.
+        </p>
+        <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+        <p>We would like to know a litte about you
+        </p>
+        <p>
+            <label for="eMail">eMail:</label>
+            <input type="email" id="eMail" name="infos" placeholder="user@example.com" required>
+            <label for="hompage">First name:</label>
+            <input type="url" id="hompage" name="infos" placeholder="http://www.example.com">
+            <label for="fname">First name:</label>
+            <input type="date" id="fname" name="infos"><br>
+        <input type="submit" value="Send">
+        </p>
+    </form>
+</main>
+</body>
+</html>
